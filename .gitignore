@@ -1,0 +1,6 @@
+# Local Vagrant directories
+.vagrant
+
+# Ignore all files with extension
+*.log
+*node_token

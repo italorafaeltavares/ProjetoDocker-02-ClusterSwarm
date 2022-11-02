@@ -1,0 +1,3 @@
+#!/bin/bash
+echo Swarm Join...
+sudo docker swarm join --token $(cat /vagrant/node_token) 10.10.10.200:2377
