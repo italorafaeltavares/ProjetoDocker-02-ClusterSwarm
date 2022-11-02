@@ -19,9 +19,18 @@ s51ylgnzu82nnv6ghxg12wuif     node03     Ready     Active                       
 vagrant@master:~$ sudo docker service create --name meuapp --replicas 6 -dt -p 80:80 httpd
 ji0vyc11wlz506egmgq1zm522
 ````
-> Verificando seriço no cluster Swarm: 
+> Verificando serviço ativos no cluster Swarm: 
 ````
 vagrant@master:~$ docker service ls
 ID             NAME      MODE         REPLICAS   IMAGE          PORTS
 ji0vyc11wlz5   meuapp    replicated   6/6        httpd:latest   *:80->80/tcp
 ````
+> Aplicação publicada 
+
+<p align="center">
+  
+  <img src="https://github.com/italorafaeltavares/ProjetoDocker-02-ClusterSwarm /blob/main/site.png" style="width: 550px;">
+ 
+</p>
+
+<p align="center">
