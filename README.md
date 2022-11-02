@@ -29,7 +29,7 @@ ji0vyc11wlz5   meuapp    replicated   6/6        httpd:latest   *:80->80/tcp
 
 <p align="center">
   
-  <img src="https://github.com/italorafaeltavares/ProjetoDocker-02-ClusterSwarm /blob/main/httpd.png" style="width: 550px;">
+  <img src="https://github.com/italorafaeltavares/ProjetoDocker-02-ClusterSwarm/blob/main/httpd.png" style="width: 550px;">
  
 </p>
 
